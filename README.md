@@ -1,4 +1,4 @@
-
+本代码修改自本末科技原仓库https://github.com/DDTRobot/ddt_rl_isaacgym
 ### Installation ###
 1. Create a new python virtual env with python 3.6, 3.7 or 3.8 (3.8 recommended)
 2. Install pytorch 1.10 with cuda-11.3:
