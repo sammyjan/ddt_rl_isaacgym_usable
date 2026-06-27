@@ -1,0 +1,9 @@
+训练：
+conda activate rl
+python scripts/train.py --task=d1h_flat --sim_device=cuda:5 --rl_device=cuda:5 --headless --max_iterations=50000
+
+play：
+python scripts/simple_play.py --task=d1h_flat_play --rl_device=cuda:5 --sim_device=cuda:5 --headless
+
+使用tensorboard：
+tensorboard --logdir=./logs/d1h_rough
